@@ -1,0 +1,241 @@
+/*header*/
+
+.docplanner-header{
+    display:flex;
+    justify-content: space-around;
+    
+    background-color: white;
+    width:100%;
+
+ /*  padding:0px 50px;*/
+   align-items: center;
+}
+a{ 
+    text-decoration: none;
+
+}
+header{
+    position: fixed;
+    top:0;
+    /*margin: 0% 20%;*/
+}
+
+.sousmenu{display:none;
+    
+}
+.header-logo{display:flex;
+    justify-content:space-around;
+    
+}
+
+
+
+.section1-menu{display:flex;
+    justify-content: space-around;
+}
+
+.color-gray{
+    color:gray;
+}
+.career{color:gray;
+    
+}
+.career:hover{color:#00b39b;
+    
+}
+.departments{color:gray;
+       
+}
+.departments:hover .sousmenu{
+    display:flex;
+justify-content: space-around;
+     color:#00b39b;
+    
+}
+   
+    
+
+
+/*main*/
+
+body{
+    color:grey;
+    
+}
+
+
+
+/*section2*/
+
+.section2{
+    margin: 0% 20%;
+/* max-width: 800px;         2eme methode
+     margin: auto;  */
+  
+}
+.introduction{
+    margin:20px;
+}
+
+.section2-part1{display:flex;
+
+
+    align-items: center;
+    flex-direction: column;
+}
+.section2-part2{display:flex;
+      
+}
+.section2-part3{ display:flex;
+    color:white;
+        justify-content:space-around;
+      
+}
+.section2-part3-1{
+    background-color:#00ccb1;
+   margin:20px;
+ padding: 0px 20px;
+    border-radius: 10px;
+     
+}
+
+.button-section2{
+   
+    background-color: white;
+    padding: 10px 15px;
+    border:none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.for-patients{ display:flex;
+justify-content: space-between;
+ 
+    
+}
+.color-green{
+    color:#00b39b;
+}
+
+
+.section2-part3-2{
+    background-color:#3d83df;
+    margin:20px;
+padding: 0px 20px;
+    border-radius: 10px;
+}
+
+
+.img-section2-part3-2{display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+
+.section2-part4{display:flex;
+    
+        justify-content:space-around;
+     align-items: center;
+}
+.img1:hover{
+    background-color :red;
+}
+
+.titre-section2-part4{
+    width:25%;
+}
+.liens-section2-part4{
+    display:flex;
+    justify-content: space-between;
+
+   
+}
+.lien{ color:gray;
+    
+}
+.lien:hover{
+    color:#00b39b;
+    
+}
+/*section3*/
+
+.section3{
+    background-color: #e5faf8;
+    display:flex;
+    justify-content:space-around;
+}
+.section3-part1{
+    width:30%;
+}
+.section3-part2{
+    display:flex;
+    justify-content: space-between;
+}
+/*section4*/
+.description-section4{
+    display:flex;
+    flex-direction:column;
+   align-items: center;
+   /*margin:100px 0px;*/
+   
+    text-align:center;
+    margin:auto;
+    width:50%;
+    padding:10% 0%;
+}
+
+
+
+
+.button-images{
+    color:white;
+    background-color: #3d83df;
+    padding:5px 9px;
+    border-radius:7px;
+}
+.images-section4{
+    display:flex;
+     flex-direction:column;
+}
+
+.images-section4-line1{display:flex;
+    justify-content: space-around;
+   
+}
+
+.images-section4-line2{display:flex;
+    justify-content: space-around;
+    margin:20px 0px;
+}
+.img1{
+    padding:0px 15px;
+
+}
+
+
+.section4{
+    margin: 0% 20%;
+}
+
+.sous-titre-img{display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+/*footer*/
+.docplanner-footer{display:flex;
+    flex-direction:column;
+    align-items: center;
+    
+}
+
+footer a {color:blue;
+    
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.line{
+    border: 1px solid gray;
+    width:100%;
+}
